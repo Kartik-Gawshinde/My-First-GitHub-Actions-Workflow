@@ -1,0 +1,16 @@
+name: Kartik Gawshinde
+#Event Start
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  Demo: 
+    runs-on: ubuntu-latest
+
+    steps: 
+      -  name: Greetings  
+         run: echo "Hello from KG"
+    
+  
